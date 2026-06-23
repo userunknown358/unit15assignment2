@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Form</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="cars.html">Cars</a>
+        <a href="form.html" class="active">Form</a>
+    </nav>
+</header>
+
+<main>
+
+    <form onsubmit="submitForm(event)">
+
+        <label>Car Name</label>
+        <select>
+            <option>Car 1</option>
+            <option>Car 2</option>
+            <option>Car 3</option>
+        </select>
+
+        <label>DOB</label>
+        <input type="date">
+
+        <label>Home Address</label>
+        <input type="text">
+
+        <label>Preferred Time</label>
+        <textarea></textarea>
+
+        <button onclick="showMessage()" type="submit">Submit</button>
+
+    </form>
+
+</main>
+
+<footer>
+    <p>Footer</p>
+</footer>
+
+<script>
+    
+        function showMessage() {
+            alert("Error: You do not meet the age requirements.")
+        }
+    
+</script>
+
+</body>
+</html>
