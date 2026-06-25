@@ -1,2 +1,1 @@
-Template.
-Created 16.05.2026
+Website coursework. 
