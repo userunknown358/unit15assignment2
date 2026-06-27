@@ -10,7 +10,6 @@ body {
     flex-direction: column;
 }
 
-/* HEADER */
 header {
     background-color: grey;
     display: flex;
@@ -38,14 +37,12 @@ nav a {
     padding-bottom: 5px;
 }
 
-/* MAIN AREA */
 main {
     flex: 1;
     background-color: white;
     padding: 30px;
 }
 
-/* FOOTER */
 footer {
     background-color: grey;
     color: white;
@@ -53,14 +50,12 @@ footer {
     padding: 10px;
 }
 
-/* GRID (WORKING 3x3) */
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
 }
 
-/* CARD STYLE */
 .card {
     display: flex;
     flex-direction: column;
@@ -83,7 +78,6 @@ footer {
     text-decoration: none;
 }
 
-/* HERO GIF SECTION */
 .hero {
     position: relative;
     width: 100%;
@@ -109,7 +103,6 @@ footer {
     text-align: center;
 }
 
-/* FORM PAGE */
 form {
     display: flex;
     flex-direction: column;
